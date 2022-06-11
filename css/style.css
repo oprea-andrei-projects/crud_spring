@@ -1,0 +1,113 @@
+table{
+
+    width: 70vw;
+    height: 50vh;
+  
+    border-collapse: separate;
+   
+  
+  }
+  caption{
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .titlu{
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+  
+  .buton{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: green;
+    color: white;
+    font-size: 20px;
+    width: 110px;
+    border-radius: 10% 10%;
+  }
+  
+  thead th{
+  
+    text-align: left;
+    border-bottom: 2px solid orange;
+  }
+  
+  tbody th{
+  
+    text-align: left;
+    color: green;
+  }
+  
+  tbody tr{
+  
+    text-align: left;
+    
+  }
+  
+  tbody tr:nth-child(even){
+  
+    background: lightgray;
+  }
+
+  .myForm{
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 15px;
+
+
+
+  }
+
+  label{
+
+    margin-top: 15px;
+  }
+
+  .newBook{
+
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+  }
+
+  .cancel{
+
+    margin-top: 20px;
+
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+
+
+  }
+
+  .deleteBook{
+
+    margin-top: 20px;
+
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+
+
+  }
+
+  .titlu{
+
+    cursor: pointer;
+  }
+
+  .findOldie{
+
+    margin-top: 20px;
+
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    cursor: pointer;
+
+  }
